@@ -10,3 +10,6 @@ D:\AppData\SkyDrive\Projects\OpenSource\Reliance BB Login\RelianceBBLogin\bin\Re
 D:\AppData\SkyDrive\Projects\OpenSource\Reliance BB Login\RelianceBBLogin\obj\Release\RelianceBroadbandLogin.csprojResolveAssemblyReference.cache
 D:\AppData\SkyDrive\Projects\OpenSource\Reliance BB Login\RelianceBBLogin\obj\Release\RelianceLogin.exe
 D:\AppData\SkyDrive\Projects\OpenSource\Reliance BB Login\RelianceBBLogin\obj\Release\RelianceLogin.pdb
+D:\AppData\SkyDrive\Projects\GitHub\RelianceBroadbandLogin\RelianceBBLogin\bin\Release\RelianceLogin.exe.config
+D:\AppData\SkyDrive\Projects\GitHub\RelianceBroadbandLogin\RelianceBBLogin\obj\Release\RelianceLogin.exe
+D:\AppData\SkyDrive\Projects\GitHub\RelianceBroadbandLogin\RelianceBBLogin\obj\Release\RelianceLogin.pdb
