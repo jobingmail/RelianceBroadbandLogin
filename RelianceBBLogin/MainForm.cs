@@ -37,6 +37,9 @@ namespace RelianceBBLogin
             }
         }
 
+        bool IsConnected { get; set; }
+
+
         public MainForm()
         {
             InitializeComponent();
@@ -44,19 +47,8 @@ namespace RelianceBBLogin
             this.WebBrowser1 = new System.Windows.Forms.WebBrowser();
             this.WebBrowser1.NewWindow += WebBrowser1_NewWindow;
 
-            timer1.Enabled = true;
-
-            try
-            {
-                var secs = int.Parse(AppConfig.TimerIntervalSec);
-                timer1.Interval = secs * 1000;
-            }
-            catch(Exception)
-            {
-                timer1.Interval = 60000;
-            }
-
-            //timer1.Start();
+            this.Icon = Properties.Resources.login;
+            NotifyIcon1.Icon = Properties.Resources.login;
 
         }
 
@@ -67,8 +59,24 @@ namespace RelianceBBLogin
 
         private async void MainForm_Load(object sender, EventArgs e)
         {
-            this.Icon = Properties.Resources.reliance;
-            NotifyIcon1.Icon = Properties.Resources.reliance;
+
+            timer1.Enabled = true;
+
+            try
+            {
+
+                var s = AppConfig.DomainIPName;
+                int secs = int.Parse(AppConfig.TimerIntervalSec);
+                timer1.Interval = secs * 1000;
+            }
+            catch (Exception)
+            {
+                timer1.Interval = 60000;
+            }
+
+            timer1.Start();
+
+            
 
             bool temp;
             if(bool.TryParse(AppConfig.Notify,out temp))
@@ -95,9 +103,7 @@ namespace RelianceBBLogin
         async Task RelianceBBLogin()
         {
 
-            lock (_lockObject)
-            {
-
+            
                 try
                 {
 
@@ -108,7 +114,9 @@ namespace RelianceBBLogin
 
                         if (LoginHelper.PingHost(AppConfig.DomainIPName)) //ping google
                         {
-                            UpdateStatus(ConnectionStatus.Connected);
+                            
+                                UpdateStatus(ConnectionStatus.Connected);
+                            
 
 
                         }
@@ -184,7 +192,7 @@ namespace RelianceBBLogin
                 {
 
                 }
-            }
+            
         }
 
 
@@ -193,21 +201,28 @@ namespace RelianceBBLogin
         {
             if (status == ConnectionStatus.Connected)
             {
+                
+
                 this.lblStatus.Text = "You are connected";
-                if (Notify)
+                if (Notify && IsConnected==false)
                 {
                     this.NotifyIcon1.BalloonTipText = "You are connected";
                     this.NotifyIcon1.ShowBalloonTip(10);
                 }
+
+                IsConnected = true;
             }
             else if (status == ConnectionStatus.Disconnected)
             {
+                
                 this.lblStatus.Text = "You are NOT connected";
-                if (Notify)
+                if (Notify && IsConnected==true)
                 {
                     this.NotifyIcon1.BalloonTipText = "Internet Disconnected";
                     this.NotifyIcon1.ShowBalloonTip(10);
                 }
+
+                IsConnected = false;
             }
             else if (status == ConnectionStatus.NoNetwork)
             {
@@ -217,15 +232,20 @@ namespace RelianceBBLogin
                     this.NotifyIcon1.BalloonTipText = "Please Check your Ethernet Connection";
                     this.NotifyIcon1.ShowBalloonTip(10);
                 }
+
+                IsConnected = false;
             }
             else if (status == ConnectionStatus.Error)
             {
+                
                 this.lblStatus.Text = "Connection Error";
                 if (Notify)
                 {
                     this.NotifyIcon1.BalloonTipText = "Connection Error";
                     this.NotifyIcon1.ShowBalloonTip(10);
                 }
+
+                IsConnected = false;
             }
         }
 

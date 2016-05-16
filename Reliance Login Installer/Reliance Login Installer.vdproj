@@ -3,7 +3,7 @@
 "VSVersion" = "3:800"
 "ProjectType" = "8:{978C614F-708E-4E1A-B201-565925725DBA}"
 "IsWebType" = "8:FALSE"
-"ProjectName" = "8:RelianceBBLogin_Installer"
+"ProjectName" = "8:Reliance Login Installer"
 "LanguageId" = "3:1033"
 "CodePage" = "3:1252"
 "UILanguageId" = "3:1033"
@@ -15,44 +15,44 @@
     {
         "Entry"
         {
-        "MsmKey" = "8:_7510D322D82CFA51FB409EADB0748878"
-        "OwnerKey" = "8:_D0262C357A9D451EB837AD0C4FBA1F48"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_99B79489B6C1122E3B2F2A5C2F0D3925"
-        "OwnerKey" = "8:_D0262C357A9D451EB837AD0C4FBA1F48"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_D0262C357A9D451EB837AD0C4FBA1F48"
+        "MsmKey" = "8:_17E24CF048714EA0812B0E1E46B92E14"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_EBDD649CA6DA4EE380C89902D2AED1B8"
+        "MsmKey" = "8:_33D24C323DCD2EB9A15E31ED43829E39"
+        "OwnerKey" = "8:_17E24CF048714EA0812B0E1E46B92E14"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_3DEFFAAFB503CB8C66ABD630D8E5C0BB"
+        "OwnerKey" = "8:_17E24CF048714EA0812B0E1E46B92E14"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_EC173686FB164886BF2D5A5FE96FCD91"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_D0262C357A9D451EB837AD0C4FBA1F48"
+        "OwnerKey" = "8:_3DEFFAAFB503CB8C66ABD630D8E5C0BB"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_99B79489B6C1122E3B2F2A5C2F0D3925"
+        "OwnerKey" = "8:_17E24CF048714EA0812B0E1E46B92E14"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_7510D322D82CFA51FB409EADB0748878"
+        "OwnerKey" = "8:_33D24C323DCD2EB9A15E31ED43829E39"
         "MsmSig" = "8:_UNDEFINED"
         }
     }
@@ -63,7 +63,7 @@
         "DisplayName" = "8:Debug"
         "IsDebugOnly" = "11:TRUE"
         "IsReleaseOnly" = "11:FALSE"
-        "OutputFilename" = "8:Debug\\RelianceBBLogin_Installer.msi"
+        "OutputFilename" = "8:Debug\\Reliance Login Installer.msi"
         "PackageFilesAs" = "3:2"
         "PackageFileSize" = "3:-2147483648"
         "CabType" = "3:1"
@@ -73,29 +73,13 @@
         "PrivateKeyFile" = "8:"
         "TimeStampServer" = "8:"
         "InstallerBootstrapper" = "3:2"
-            "BootstrapperCfg:{63ACBE69-63AA-4F98-B2B6-99F9E24495F2}"
-            {
-            "Enabled" = "11:TRUE"
-            "PromptEnabled" = "11:TRUE"
-            "PrerequisitesLocation" = "2:1"
-            "Url" = "8:"
-            "ComponentsUrl" = "8:"
-                "Items"
-                {
-                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:.NETFramework,Version=v4.5"
-                    {
-                    "Name" = "8:Microsoft .NET Framework 4.5 (x86 and x64)"
-                    "ProductCode" = "8:.NETFramework,Version=v4.5"
-                    }
-                }
-            }
         }
         "Release"
         {
         "DisplayName" = "8:Release"
         "IsDebugOnly" = "11:FALSE"
         "IsReleaseOnly" = "11:TRUE"
-        "OutputFilename" = "8:Release\\RelianceLogin_Installer.msi"
+        "OutputFilename" = "8:Release\\Reliance Login Installer.msi"
         "PackageFilesAs" = "3:2"
         "PackageFileSize" = "3:-2147483648"
         "CabType" = "3:1"
@@ -105,22 +89,6 @@
         "PrivateKeyFile" = "8:"
         "TimeStampServer" = "8:"
         "InstallerBootstrapper" = "3:2"
-            "BootstrapperCfg:{63ACBE69-63AA-4F98-B2B6-99F9E24495F2}"
-            {
-            "Enabled" = "11:TRUE"
-            "PromptEnabled" = "11:TRUE"
-            "PrerequisitesLocation" = "2:1"
-            "Url" = "8:"
-            "ComponentsUrl" = "8:"
-                "Items"
-                {
-                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:.NETFramework,Version=v4.5"
-                    {
-                    "Name" = "8:Microsoft .NET Framework 4.5 (x86 and x64)"
-                    "ProductCode" = "8:.NETFramework,Version=v4.5"
-                    }
-                }
-            }
         }
     }
     "Deployable"
@@ -138,7 +106,7 @@
         {
             "LaunchCondition"
             {
-                "{A06ECF26-33A3-4562-8140-9B0E340D4F24}:_398D0AF8377D4CA1BC865081A37BFE09"
+                "{A06ECF26-33A3-4562-8140-9B0E340D4F24}:_85A0DF2935D143029E6B8CE25D08186A"
                 {
                 "Name" = "8:.NET Framework"
                 "Message" = "8:[VSDNETMSG]"
@@ -150,45 +118,14 @@
         }
         "File"
         {
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_7510D322D82CFA51FB409EADB0748878"
-            {
-            "AssemblyRegister" = "3:1"
-            "AssemblyIsInGAC" = "11:FALSE"
-            "AssemblyAsmDisplayName" = "8:System.Net.Http, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a"
-                "ScatterAssemblies"
-                {
-                    "_7510D322D82CFA51FB409EADB0748878"
-                    {
-                    "Name" = "8:System.Net.Http.dll"
-                    "Attributes" = "3:512"
-                    }
-                }
-            "SourcePath" = "8:System.Net.Http.dll"
-            "TargetName" = "8:"
-            "Tag" = "8:"
-            "Folder" = "8:_91468808A2264A9CB7D21D67165473E2"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:TRUE"
-            "IsolateTo" = "8:"
-            }
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_99B79489B6C1122E3B2F2A5C2F0D3925"
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_33D24C323DCD2EB9A15E31ED43829E39"
             {
             "AssemblyRegister" = "3:1"
             "AssemblyIsInGAC" = "11:FALSE"
             "AssemblyAsmDisplayName" = "8:HtmlAgilityPack, Version=1.4.9.0, Culture=neutral, PublicKeyToken=bd319b19eaf3b43a, processorArchitecture=MSIL"
                 "ScatterAssemblies"
                 {
-                    "_99B79489B6C1122E3B2F2A5C2F0D3925"
+                    "_33D24C323DCD2EB9A15E31ED43829E39"
                     {
                     "Name" = "8:HtmlAgilityPack.dll"
                     "Attributes" = "3:512"
@@ -197,7 +134,7 @@
             "SourcePath" = "8:HtmlAgilityPack.dll"
             "TargetName" = "8:"
             "Tag" = "8:"
-            "Folder" = "8:_91468808A2264A9CB7D21D67165473E2"
+            "Folder" = "8:_A3D1FA46CE594FF08E42A890C037AAD3"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
@@ -212,12 +149,43 @@
             "IsDependency" = "11:TRUE"
             "IsolateTo" = "8:"
             }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_EBDD649CA6DA4EE380C89902D2AED1B8"
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_3DEFFAAFB503CB8C66ABD630D8E5C0BB"
             {
-            "SourcePath" = "8:..\\RelianceBBLogin\\reliance.ico"
-            "TargetName" = "8:reliance.ico"
+            "AssemblyRegister" = "3:1"
+            "AssemblyIsInGAC" = "11:FALSE"
+            "AssemblyAsmDisplayName" = "8:System.Net.Http, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a"
+                "ScatterAssemblies"
+                {
+                    "_3DEFFAAFB503CB8C66ABD630D8E5C0BB"
+                    {
+                    "Name" = "8:System.Net.Http.dll"
+                    "Attributes" = "3:512"
+                    }
+                }
+            "SourcePath" = "8:System.Net.Http.dll"
+            "TargetName" = "8:"
             "Tag" = "8:"
-            "Folder" = "8:_91468808A2264A9CB7D21D67165473E2"
+            "Folder" = "8:_A3D1FA46CE594FF08E42A890C037AAD3"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:TRUE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_EC173686FB164886BF2D5A5FE96FCD91"
+            {
+            "SourcePath" = "8:..\\RelianceBBLogin\\Resources\\login.ico"
+            "TargetName" = "8:login.ico"
+            "Tag" = "8:"
+            "Folder" = "8:_A3D1FA46CE594FF08E42A890C037AAD3"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
@@ -238,7 +206,7 @@
         }
         "Folder"
         {
-            "{1525181F-901A-416C-8A58-119130FE478E}:_32027716ECD44D28B6CDC2EEE1086945"
+            "{1525181F-901A-416C-8A58-119130FE478E}:_3107642FCC1948B195A6A05B97183628"
             {
             "Name" = "8:#1919"
             "AlwaysCreate" = "11:FALSE"
@@ -249,9 +217,9 @@
                 {
                 }
             }
-            "{3C67513D-01DD-4637-8A68-80971EB9504F}:_91468808A2264A9CB7D21D67165473E2"
+            "{3C67513D-01DD-4637-8A68-80971EB9504F}:_A3D1FA46CE594FF08E42A890C037AAD3"
             {
-            "DefaultLocation" = "8:[ProgramFilesFolder]Synmata\\RelianceBBLogin"
+            "DefaultLocation" = "8:[ProgramFilesFolder]\\[ProductName]"
             "Name" = "8:#1925"
             "AlwaysCreate" = "11:FALSE"
             "Condition" = "8:"
@@ -261,7 +229,7 @@
                 {
                 }
             }
-            "{1525181F-901A-416C-8A58-119130FE478E}:_A0C33326C697489B9A4D92A4B5F1A0D5"
+            "{1525181F-901A-416C-8A58-119130FE478E}:_C18A2C6D8A0D4301B851B4D8C42215A8"
             {
             "Name" = "8:#1916"
             "AlwaysCreate" = "11:FALSE"
@@ -287,26 +255,26 @@
         "Product"
         {
         "Name" = "8:Microsoft Visual Studio"
-        "ProductName" = "8:RelianceBBLogin"
-        "ProductCode" = "8:{615832C7-4290-406B-8C1E-9E56EB54735E}"
-        "PackageCode" = "8:{C20C534D-B933-4EB4-BD42-8644366E3712}"
-        "UpgradeCode" = "8:{255E89DD-E2DF-4D29-9462-89BF38787A7F}"
+        "ProductName" = "8:Reliance Login"
+        "ProductCode" = "8:{B9E11229-19C1-4161-AA3D-3960E7E30867}"
+        "PackageCode" = "8:{8DF1B5AA-CC43-4C80-80E0-12E537887BCC}"
+        "UpgradeCode" = "8:{0C795B9D-9293-4E6A-B33A-58D07F223C32}"
         "AspNetVersion" = "8:4.0.30319.0"
         "RestartWWWService" = "11:FALSE"
-        "RemovePreviousVersions" = "11:TRUE"
+        "RemovePreviousVersions" = "11:FALSE"
         "DetectNewerInstalledVersion" = "11:TRUE"
         "InstallAllUsers" = "11:FALSE"
         "ProductVersion" = "8:1.0.0"
         "Manufacturer" = "8:Synmata"
         "ARPHELPTELEPHONE" = "8:"
         "ARPHELPLINK" = "8:"
-        "Title" = "8:Reliance Login"
+        "Title" = "8:Reliance Login Installer"
         "Subject" = "8:"
-        "ARPCONTACT" = "8:Synmata"
+        "ARPCONTACT" = "8:Jobin Samuel"
         "Keywords" = "8:"
-        "ARPCOMMENTS" = "8:Auto Login for Reliance Broad Band Internet"
-        "ARPURLINFOABOUT" = "8:synmata.com"
-        "ARPPRODUCTICON" = "8:_EBDD649CA6DA4EE380C89902D2AED1B8"
+        "ARPCOMMENTS" = "8:"
+        "ARPURLINFOABOUT" = "8:"
+        "ARPPRODUCTICON" = "8:_EC173686FB164886BF2D5A5FE96FCD91"
         "ARPIconIndex" = "3:0"
         "SearchPath" = "8:"
         "UseSystemSearchPath" = "11:TRUE"
@@ -321,51 +289,15 @@
             {
                 "Keys"
                 {
-                    "{60EA8692-D2D5-43EB-80DC-7906BF13D6EF}:_A8DB492573804686AFD658DB862FD1AD"
+                    "{60EA8692-D2D5-43EB-80DC-7906BF13D6EF}:_CC1F39CD59FF488DA8C12B416A4886F1"
                     {
                     "Name" = "8:Software"
                     "Condition" = "8:"
-                    "AlwaysCreate" = "11:TRUE"
-                    "DeleteAtUninstall" = "11:TRUE"
+                    "AlwaysCreate" = "11:FALSE"
+                    "DeleteAtUninstall" = "11:FALSE"
                     "Transitive" = "11:FALSE"
                         "Keys"
                         {
-                            "{60EA8692-D2D5-43EB-80DC-7906BF13D6EF}:_C11C36CD61D44C94B2A1D10527609608"
-                            {
-                            "Name" = "8:Synmata"
-                            "Condition" = "8:"
-                            "AlwaysCreate" = "11:FALSE"
-                            "DeleteAtUninstall" = "11:FALSE"
-                            "Transitive" = "11:FALSE"
-                                "Keys"
-                                {
-                                    "{60EA8692-D2D5-43EB-80DC-7906BF13D6EF}:_64E91213E95444CDA7CAEA01880F5040"
-                                    {
-                                    "Name" = "8:RelianceLogin"
-                                    "Condition" = "8:"
-                                    "AlwaysCreate" = "11:FALSE"
-                                    "DeleteAtUninstall" = "11:FALSE"
-                                    "Transitive" = "11:FALSE"
-                                        "Keys"
-                                        {
-                                        }
-                                        "Values"
-                                        {
-                                            "{ADCFDA98-8FDD-45E4-90BC-E3D20B029870}:_957B6BD868BC4AE3AD57B42B7D932E87"
-                                            {
-                                            "Name" = "8:ExecutablePath"
-                                            "Condition" = "8:"
-                                            "Transitive" = "11:FALSE"
-                                            "ValueTypes" = "3:1"
-                                            "Value" = "8:[ProgramFilesFolder]Synmata\\RelianceBBLogin\\RelianceBBLogin.exe"
-                                            }
-                                        }
-                                    }
-                                }
-                                "Values"
-                                {
-                                }
-                            }
                         }
                         "Values"
                         {
@@ -377,7 +309,7 @@
             {
                 "Keys"
                 {
-                    "{60EA8692-D2D5-43EB-80DC-7906BF13D6EF}:_AA4CD6C811BC4FFB9554104BB83A94D7"
+                    "{60EA8692-D2D5-43EB-80DC-7906BF13D6EF}:_48EFC603253146A49D9518BB7A50D1AB"
                     {
                     "Name" = "8:Software"
                     "Condition" = "8:"
@@ -386,37 +318,15 @@
                     "Transitive" = "11:FALSE"
                         "Keys"
                         {
-                            "{60EA8692-D2D5-43EB-80DC-7906BF13D6EF}:_73DB63FBC5C84F00ABA59E031862D8F9"
+                            "{60EA8692-D2D5-43EB-80DC-7906BF13D6EF}:_A03B2B619D6D4F74AAFD47B41D250EB9"
                             {
-                            "Name" = "8:Synmata"
+                            "Name" = "8:RelianceLogin"
                             "Condition" = "8:"
-                            "AlwaysCreate" = "11:TRUE"
+                            "AlwaysCreate" = "11:FALSE"
                             "DeleteAtUninstall" = "11:FALSE"
                             "Transitive" = "11:FALSE"
                                 "Keys"
                                 {
-                                    "{60EA8692-D2D5-43EB-80DC-7906BF13D6EF}:_EDD2B7014F1E497DBCFA0242B0305F13"
-                                    {
-                                    "Name" = "8:RelianceLogin"
-                                    "Condition" = "8:"
-                                    "AlwaysCreate" = "11:FALSE"
-                                    "DeleteAtUninstall" = "11:FALSE"
-                                    "Transitive" = "11:FALSE"
-                                        "Keys"
-                                        {
-                                        }
-                                        "Values"
-                                        {
-                                            "{ADCFDA98-8FDD-45E4-90BC-E3D20B029870}:_3F9D624D8C9B46328154FA10AE70E5AF"
-                                            {
-                                            "Name" = "8:ExecutablePath"
-                                            "Condition" = "8:"
-                                            "Transitive" = "11:FALSE"
-                                            "ValueTypes" = "3:1"
-                                            "Value" = "8:[ProgramFilesFolder]Synmata\\RelianceBBLogin\\RelianceBBLogin.exe"
-                                            }
-                                        }
-                                    }
                                 }
                                 "Values"
                                 {
@@ -456,20 +366,20 @@
         }
         "UserInterface"
         {
-            "{2479F3F5-0309-486D-8047-8187E2CE5BA0}:_14BFF87757BA403FBB8B04B9CE11DB23"
+            "{2479F3F5-0309-486D-8047-8187E2CE5BA0}:_0C0C517D27DF4D6396ACD201CC1790E9"
             {
             "UseDynamicProperties" = "11:FALSE"
             "IsDependency" = "11:FALSE"
             "SourcePath" = "8:<VsdDialogDir>\\VsdUserInterface.wim"
             }
-            "{DF760B10-853B-4699-99F2-AFF7185B4A62}:_1B0B28ECB6D64E6E8292AD81E02D11C5"
+            "{DF760B10-853B-4699-99F2-AFF7185B4A62}:_2CDBDC4C55274A7499F0BB20600D51D1"
             {
             "Name" = "8:#1902"
             "Sequence" = "3:1"
             "Attributes" = "3:3"
                 "Dialogs"
                 {
-                    "{688940B3-5CA9-4162-8DEE-2993FA9D8CBC}:_6AD98EE8A4A74A34AA9C6C0F0F1F0CBF"
+                    "{688940B3-5CA9-4162-8DEE-2993FA9D8CBC}:_9186AB1BA0124C92B4C5A296F1CFEBBB"
                     {
                     "Sequence" = "3:100"
                     "DisplayName" = "8:Finished"
@@ -506,51 +416,14 @@
                     }
                 }
             }
-            "{2479F3F5-0309-486D-8047-8187E2CE5BA0}:_2EC94274AB2B45AF9287B8E5DB389165"
-            {
-            "UseDynamicProperties" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "SourcePath" = "8:<VsdDialogDir>\\VsdBasicDialogs.wim"
-            }
-            "{DF760B10-853B-4699-99F2-AFF7185B4A62}:_9ADD2BDAC14B4D2FB1D0398FE0809B12"
-            {
-            "Name" = "8:#1902"
-            "Sequence" = "3:2"
-            "Attributes" = "3:3"
-                "Dialogs"
-                {
-                    "{688940B3-5CA9-4162-8DEE-2993FA9D8CBC}:_EDA03396FF594A27A5215475B9BA126B"
-                    {
-                    "Sequence" = "3:100"
-                    "DisplayName" = "8:Finished"
-                    "UseDynamicProperties" = "11:TRUE"
-                    "IsDependency" = "11:FALSE"
-                    "SourcePath" = "8:<VsdDialogDir>\\VsdAdminFinishedDlg.wid"
-                        "Properties"
-                        {
-                            "BannerBitmap"
-                            {
-                            "Name" = "8:BannerBitmap"
-                            "DisplayName" = "8:#1001"
-                            "Description" = "8:#1101"
-                            "Type" = "3:8"
-                            "ContextData" = "8:Bitmap"
-                            "Attributes" = "3:4"
-                            "Setting" = "3:1"
-                            "UsePlugInResources" = "11:TRUE"
-                            }
-                        }
-                    }
-                }
-            }
-            "{DF760B10-853B-4699-99F2-AFF7185B4A62}:_CC696540201A4FA88D90666E36FA753B"
+            "{DF760B10-853B-4699-99F2-AFF7185B4A62}:_9F81748F6F984FBFA208754477C7839D"
             {
             "Name" = "8:#1901"
             "Sequence" = "3:2"
             "Attributes" = "3:2"
                 "Dialogs"
                 {
-                    "{688940B3-5CA9-4162-8DEE-2993FA9D8CBC}:_44577C5C67454987884658DE29CC2A44"
+                    "{688940B3-5CA9-4162-8DEE-2993FA9D8CBC}:_648E5DE4BD4A4A07B7FBAE5E959BCF1B"
                     {
                     "Sequence" = "3:100"
                     "DisplayName" = "8:Progress"
@@ -587,58 +460,58 @@
                     }
                 }
             }
-            "{DF760B10-853B-4699-99F2-AFF7185B4A62}:_DCA393B5D2944D9CA6CAD7D8917C4959"
+            "{DF760B10-853B-4699-99F2-AFF7185B4A62}:_B347D52205B1487FA8DD81C4323B2437"
+            {
+            "Name" = "8:#1901"
+            "Sequence" = "3:1"
+            "Attributes" = "3:2"
+                "Dialogs"
+                {
+                    "{688940B3-5CA9-4162-8DEE-2993FA9D8CBC}:_1E3D88DE33E34D35AAFB356D309A8E6B"
+                    {
+                    "Sequence" = "3:100"
+                    "DisplayName" = "8:Progress"
+                    "UseDynamicProperties" = "11:TRUE"
+                    "IsDependency" = "11:FALSE"
+                    "SourcePath" = "8:<VsdDialogDir>\\VsdProgressDlg.wid"
+                        "Properties"
+                        {
+                            "BannerBitmap"
+                            {
+                            "Name" = "8:BannerBitmap"
+                            "DisplayName" = "8:#1001"
+                            "Description" = "8:#1101"
+                            "Type" = "3:8"
+                            "ContextData" = "8:Bitmap"
+                            "Attributes" = "3:4"
+                            "Setting" = "3:1"
+                            "UsePlugInResources" = "11:TRUE"
+                            }
+                            "ShowProgress"
+                            {
+                            "Name" = "8:ShowProgress"
+                            "DisplayName" = "8:#1009"
+                            "Description" = "8:#1109"
+                            "Type" = "3:5"
+                            "ContextData" = "8:1;True=1;False=0"
+                            "Attributes" = "3:0"
+                            "Setting" = "3:0"
+                            "Value" = "3:1"
+                            "DefaultValue" = "3:1"
+                            "UsePlugInResources" = "11:TRUE"
+                            }
+                        }
+                    }
+                }
+            }
+            "{DF760B10-853B-4699-99F2-AFF7185B4A62}:_B3FFD19620DB4C95AEA0BAB9FF858D21"
             {
             "Name" = "8:#1900"
             "Sequence" = "3:2"
             "Attributes" = "3:1"
                 "Dialogs"
                 {
-                    "{688940B3-5CA9-4162-8DEE-2993FA9D8CBC}:_4DCD6E54B30948BFA2625889D66D76C4"
-                    {
-                    "Sequence" = "3:300"
-                    "DisplayName" = "8:Confirm Installation"
-                    "UseDynamicProperties" = "11:TRUE"
-                    "IsDependency" = "11:FALSE"
-                    "SourcePath" = "8:<VsdDialogDir>\\VsdAdminConfirmDlg.wid"
-                        "Properties"
-                        {
-                            "BannerBitmap"
-                            {
-                            "Name" = "8:BannerBitmap"
-                            "DisplayName" = "8:#1001"
-                            "Description" = "8:#1101"
-                            "Type" = "3:8"
-                            "ContextData" = "8:Bitmap"
-                            "Attributes" = "3:4"
-                            "Setting" = "3:1"
-                            "UsePlugInResources" = "11:TRUE"
-                            }
-                        }
-                    }
-                    "{688940B3-5CA9-4162-8DEE-2993FA9D8CBC}:_CE002EC457584C9AB7DC46FBA72C603E"
-                    {
-                    "Sequence" = "3:200"
-                    "DisplayName" = "8:Installation Folder"
-                    "UseDynamicProperties" = "11:TRUE"
-                    "IsDependency" = "11:FALSE"
-                    "SourcePath" = "8:<VsdDialogDir>\\VsdAdminFolderDlg.wid"
-                        "Properties"
-                        {
-                            "BannerBitmap"
-                            {
-                            "Name" = "8:BannerBitmap"
-                            "DisplayName" = "8:#1001"
-                            "Description" = "8:#1101"
-                            "Type" = "3:8"
-                            "ContextData" = "8:Bitmap"
-                            "Attributes" = "3:4"
-                            "Setting" = "3:1"
-                            "UsePlugInResources" = "11:TRUE"
-                            }
-                        }
-                    }
-                    "{688940B3-5CA9-4162-8DEE-2993FA9D8CBC}:_FED78564C7284919872D5187D7CAA2BA"
+                    "{688940B3-5CA9-4162-8DEE-2993FA9D8CBC}:_7A9D7484C2AB42C4999965D19E84D350"
                     {
                     "Sequence" = "3:100"
                     "DisplayName" = "8:Welcome"
@@ -686,16 +559,60 @@
                             }
                         }
                     }
+                    "{688940B3-5CA9-4162-8DEE-2993FA9D8CBC}:_AF55F67E26C242828C3B3EE262A4D245"
+                    {
+                    "Sequence" = "3:300"
+                    "DisplayName" = "8:Confirm Installation"
+                    "UseDynamicProperties" = "11:TRUE"
+                    "IsDependency" = "11:FALSE"
+                    "SourcePath" = "8:<VsdDialogDir>\\VsdAdminConfirmDlg.wid"
+                        "Properties"
+                        {
+                            "BannerBitmap"
+                            {
+                            "Name" = "8:BannerBitmap"
+                            "DisplayName" = "8:#1001"
+                            "Description" = "8:#1101"
+                            "Type" = "3:8"
+                            "ContextData" = "8:Bitmap"
+                            "Attributes" = "3:4"
+                            "Setting" = "3:1"
+                            "UsePlugInResources" = "11:TRUE"
+                            }
+                        }
+                    }
+                    "{688940B3-5CA9-4162-8DEE-2993FA9D8CBC}:_AF5E4032BBA14B36923F9A503C2C291F"
+                    {
+                    "Sequence" = "3:200"
+                    "DisplayName" = "8:Installation Folder"
+                    "UseDynamicProperties" = "11:TRUE"
+                    "IsDependency" = "11:FALSE"
+                    "SourcePath" = "8:<VsdDialogDir>\\VsdAdminFolderDlg.wid"
+                        "Properties"
+                        {
+                            "BannerBitmap"
+                            {
+                            "Name" = "8:BannerBitmap"
+                            "DisplayName" = "8:#1001"
+                            "Description" = "8:#1101"
+                            "Type" = "3:8"
+                            "ContextData" = "8:Bitmap"
+                            "Attributes" = "3:4"
+                            "Setting" = "3:1"
+                            "UsePlugInResources" = "11:TRUE"
+                            }
+                        }
+                    }
                 }
             }
-            "{DF760B10-853B-4699-99F2-AFF7185B4A62}:_F50CD022AC894C7FB5BEC6F97D23F093"
+            "{DF760B10-853B-4699-99F2-AFF7185B4A62}:_B9AF7E0B5E8F4F269FC9CBB7D1808D7A"
             {
             "Name" = "8:#1900"
             "Sequence" = "3:1"
             "Attributes" = "3:1"
                 "Dialogs"
                 {
-                    "{688940B3-5CA9-4162-8DEE-2993FA9D8CBC}:_7863EAAAF492475CB0D5C2B168BDC4FF"
+                    "{688940B3-5CA9-4162-8DEE-2993FA9D8CBC}:_2B1CA01A488C4D9C9223154FB5E79B64"
                     {
                     "Sequence" = "3:100"
                     "DisplayName" = "8:Welcome"
@@ -743,7 +660,29 @@
                             }
                         }
                     }
-                    "{688940B3-5CA9-4162-8DEE-2993FA9D8CBC}:_A658823321EE448C8B0F4F74DD810CFC"
+                    "{688940B3-5CA9-4162-8DEE-2993FA9D8CBC}:_C85DF786E9564977A6AC75EB1B8AB668"
+                    {
+                    "Sequence" = "3:300"
+                    "DisplayName" = "8:Confirm Installation"
+                    "UseDynamicProperties" = "11:TRUE"
+                    "IsDependency" = "11:FALSE"
+                    "SourcePath" = "8:<VsdDialogDir>\\VsdConfirmDlg.wid"
+                        "Properties"
+                        {
+                            "BannerBitmap"
+                            {
+                            "Name" = "8:BannerBitmap"
+                            "DisplayName" = "8:#1001"
+                            "Description" = "8:#1101"
+                            "Type" = "3:8"
+                            "ContextData" = "8:Bitmap"
+                            "Attributes" = "3:4"
+                            "Setting" = "3:1"
+                            "UsePlugInResources" = "11:TRUE"
+                            }
+                        }
+                    }
+                    "{688940B3-5CA9-4162-8DEE-2993FA9D8CBC}:_FCD3665CEAED4838897C0EE4789F5AD4"
                     {
                     "Sequence" = "3:200"
                     "DisplayName" = "8:Installation Folder"
@@ -778,13 +717,22 @@
                             }
                         }
                     }
-                    "{688940B3-5CA9-4162-8DEE-2993FA9D8CBC}:_C6D1A3F22AED4EF9AE87C4D564E1CF64"
+                }
+            }
+            "{DF760B10-853B-4699-99F2-AFF7185B4A62}:_BA98B9FC7A594732895E316DCA5BE75F"
+            {
+            "Name" = "8:#1902"
+            "Sequence" = "3:2"
+            "Attributes" = "3:3"
+                "Dialogs"
+                {
+                    "{688940B3-5CA9-4162-8DEE-2993FA9D8CBC}:_360CA68A15B34CA2B13A8B2820B67801"
                     {
-                    "Sequence" = "3:300"
-                    "DisplayName" = "8:Confirm Installation"
+                    "Sequence" = "3:100"
+                    "DisplayName" = "8:Finished"
                     "UseDynamicProperties" = "11:TRUE"
                     "IsDependency" = "11:FALSE"
-                    "SourcePath" = "8:<VsdDialogDir>\\VsdConfirmDlg.wid"
+                    "SourcePath" = "8:<VsdDialogDir>\\VsdAdminFinishedDlg.wid"
                         "Properties"
                         {
                             "BannerBitmap"
@@ -802,49 +750,11 @@
                     }
                 }
             }
-            "{DF760B10-853B-4699-99F2-AFF7185B4A62}:_FE5978DE7459492AADD0BF1CED3E6390"
+            "{2479F3F5-0309-486D-8047-8187E2CE5BA0}:_D7875A3C70C642878E2B4049E503D5ED"
             {
-            "Name" = "8:#1901"
-            "Sequence" = "3:1"
-            "Attributes" = "3:2"
-                "Dialogs"
-                {
-                    "{688940B3-5CA9-4162-8DEE-2993FA9D8CBC}:_B3F54B9B71894FD8895BF4FB5C067CF9"
-                    {
-                    "Sequence" = "3:100"
-                    "DisplayName" = "8:Progress"
-                    "UseDynamicProperties" = "11:TRUE"
-                    "IsDependency" = "11:FALSE"
-                    "SourcePath" = "8:<VsdDialogDir>\\VsdProgressDlg.wid"
-                        "Properties"
-                        {
-                            "BannerBitmap"
-                            {
-                            "Name" = "8:BannerBitmap"
-                            "DisplayName" = "8:#1001"
-                            "Description" = "8:#1101"
-                            "Type" = "3:8"
-                            "ContextData" = "8:Bitmap"
-                            "Attributes" = "3:4"
-                            "Setting" = "3:1"
-                            "UsePlugInResources" = "11:TRUE"
-                            }
-                            "ShowProgress"
-                            {
-                            "Name" = "8:ShowProgress"
-                            "DisplayName" = "8:#1009"
-                            "Description" = "8:#1109"
-                            "Type" = "3:5"
-                            "ContextData" = "8:1;True=1;False=0"
-                            "Attributes" = "3:0"
-                            "Setting" = "3:0"
-                            "Value" = "3:1"
-                            "DefaultValue" = "3:1"
-                            "UsePlugInResources" = "11:TRUE"
-                            }
-                        }
-                    }
-                }
+            "UseDynamicProperties" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "SourcePath" = "8:<VsdDialogDir>\\VsdBasicDialogs.wim"
             }
         }
         "MergeModule"
@@ -852,12 +762,12 @@
         }
         "ProjectOutput"
         {
-            "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_D0262C357A9D451EB837AD0C4FBA1F48"
+            "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_17E24CF048714EA0812B0E1E46B92E14"
             {
             "SourcePath" = "8:..\\RelianceBBLogin\\obj\\Release\\RelianceLogin.exe"
             "TargetName" = "8:"
             "Tag" = "8:"
-            "Folder" = "8:_91468808A2264A9CB7D21D67165473E2"
+            "Folder" = "8:_A3D1FA46CE594FF08E42A890C037AAD3"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"

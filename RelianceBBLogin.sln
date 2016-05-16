@@ -5,7 +5,7 @@ VisualStudioVersion = 14.0.25123.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RelianceBroadbandLogin", "RelianceBBLogin\RelianceBroadbandLogin.csproj", "{164B2E24-D28A-40A4-B5D3-97D3C0CEEFAB}"
 EndProject
-Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "RelianceBBLogin_Installer", "RelianceBBLogin_Installer\RelianceBBLogin_Installer.vdproj", "{E2A13357-10E1-4771-910A-9162A9A09AD9}"
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Reliance Login Installer", "Reliance Login Installer\Reliance Login Installer.vdproj", "{2CB81994-21C9-4481-A4E8-ADCDC401E13D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,9 +17,8 @@ Global
 		{164B2E24-D28A-40A4-B5D3-97D3C0CEEFAB}.Debug|Any CPU.Build.0 = Release|Any CPU
 		{164B2E24-D28A-40A4-B5D3-97D3C0CEEFAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{164B2E24-D28A-40A4-B5D3-97D3C0CEEFAB}.Release|Any CPU.Build.0 = Release|Any CPU
-		{E2A13357-10E1-4771-910A-9162A9A09AD9}.Debug|Any CPU.ActiveCfg = Release
-		{E2A13357-10E1-4771-910A-9162A9A09AD9}.Debug|Any CPU.Build.0 = Release
-		{E2A13357-10E1-4771-910A-9162A9A09AD9}.Release|Any CPU.ActiveCfg = Release
+		{2CB81994-21C9-4481-A4E8-ADCDC401E13D}.Debug|Any CPU.ActiveCfg = Debug
+		{2CB81994-21C9-4481-A4E8-ADCDC401E13D}.Release|Any CPU.ActiveCfg = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

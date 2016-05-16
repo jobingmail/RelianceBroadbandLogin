@@ -63,9 +63,9 @@ namespace RelianceBBLogin.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
         /// </summary>
-        internal static System.Drawing.Icon reliance {
+        internal static System.Drawing.Icon login {
             get {
-                object obj = ResourceManager.GetObject("reliance", resourceCulture);
+                object obj = ResourceManager.GetObject("login", resourceCulture);
                 return ((System.Drawing.Icon)(obj));
             }
         }

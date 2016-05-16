@@ -10,7 +10,7 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Synmata")]
 [assembly: AssemblyProduct("RelianceBBLogin")]
-[assembly: AssemblyCopyright("Copyright © Synmata LLC  2016")]
+[assembly: AssemblyCopyright("Copyright © 2016")]
 [assembly: AssemblyTrademark("Synmata")]
 [assembly: AssemblyCulture("")]
 
