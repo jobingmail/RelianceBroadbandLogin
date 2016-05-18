@@ -65,7 +65,6 @@ namespace RelianceBBLogin
             try
             {
 
-                var s = AppConfig.DomainIPName;
                 int secs = int.Parse(AppConfig.TimerIntervalSec);
                 timer1.Interval = secs * 1000;
             }
