@@ -99,7 +99,7 @@
             this.tabControl1.Location = new System.Drawing.Point(0, 0);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
-            this.tabControl1.Size = new System.Drawing.Size(591, 397);
+            this.tabControl1.Size = new System.Drawing.Size(591, 425);
             this.tabControl1.TabIndex = 0;
             // 
             // tabPage1
@@ -108,7 +108,7 @@
             this.tabPage1.Location = new System.Drawing.Point(4, 31);
             this.tabPage1.Name = "tabPage1";
             this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage1.Size = new System.Drawing.Size(583, 362);
+            this.tabPage1.Size = new System.Drawing.Size(583, 390);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.UseVisualStyleBackColor = true;
             // 
@@ -139,33 +139,34 @@
             this.tableLayoutPanel1.Location = new System.Drawing.Point(3, 3);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
             this.tableLayoutPanel1.RowCount = 8;
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 12.5F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 12.5F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 12.5F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 12.5F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 12.5F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 12.5F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 12.5F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 12.5F));
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(577, 356);
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 10.4712F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 9.424084F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 8.900523F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 11.51832F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 12.04188F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 10.4712F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 24.60733F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 10.4712F));
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(577, 384);
             this.tableLayoutPanel1.TabIndex = 2;
             // 
             // txtPassword
             // 
             this.txtPassword.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.txtPassword.Location = new System.Drawing.Point(367, 185);
+            this.txtPassword.Location = new System.Drawing.Point(367, 168);
             this.txtPassword.MaxLength = 50;
             this.txtPassword.Name = "txtPassword";
             this.txtPassword.PasswordChar = '*';
             this.txtPassword.Size = new System.Drawing.Size(129, 28);
             this.txtPassword.TabIndex = 8;
+            this.txtPassword.TextChanged += new System.EventHandler(this.txtPassword_TextChanged);
             // 
             // label2
             // 
             this.label2.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(58, 11);
+            this.label2.Location = new System.Drawing.Point(58, 9);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(172, 24);
             this.label2.TabIndex = 1;
@@ -176,7 +177,7 @@
             this.lblStatus.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.lblStatus.AutoSize = true;
             this.lblStatus.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblStatus.Location = new System.Drawing.Point(367, 11);
+            this.lblStatus.Location = new System.Drawing.Point(367, 9);
             this.lblStatus.Name = "lblStatus";
             this.lblStatus.Size = new System.Drawing.Size(130, 24);
             this.lblStatus.TabIndex = 0;
@@ -186,7 +187,7 @@
             // 
             this.chkRunStart.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.chkRunStart.AutoSize = true;
-            this.chkRunStart.Location = new System.Drawing.Point(423, 58);
+            this.chkRunStart.Location = new System.Drawing.Point(423, 52);
             this.chkRunStart.Name = "chkRunStart";
             this.chkRunStart.Size = new System.Drawing.Size(18, 17);
             this.chkRunStart.TabIndex = 4;
@@ -197,7 +198,7 @@
             // 
             this.label1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(92, 143);
+            this.label1.Location = new System.Drawing.Point(92, 124);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(105, 24);
             this.label1.TabIndex = 5;
@@ -206,17 +207,18 @@
             // txtUsername
             // 
             this.txtUsername.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.txtUsername.Location = new System.Drawing.Point(367, 141);
+            this.txtUsername.Location = new System.Drawing.Point(367, 122);
             this.txtUsername.MaxLength = 50;
             this.txtUsername.Name = "txtUsername";
             this.txtUsername.Size = new System.Drawing.Size(129, 28);
             this.txtUsername.TabIndex = 6;
+            this.txtUsername.TextChanged += new System.EventHandler(this.txtUsername_TextChanged);
             // 
             // label3
             // 
             this.label3.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(98, 187);
+            this.label3.Location = new System.Drawing.Point(98, 170);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(92, 24);
             this.label3.TabIndex = 7;
@@ -226,7 +228,7 @@
             // 
             this.label4.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(47, 231);
+            this.label4.Location = new System.Drawing.Point(47, 214);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(195, 24);
             this.label4.TabIndex = 9;
@@ -235,7 +237,7 @@
             // numTimerInterval
             // 
             this.numTimerInterval.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.numTimerInterval.Location = new System.Drawing.Point(403, 229);
+            this.numTimerInterval.Location = new System.Drawing.Point(403, 212);
             this.numTimerInterval.Maximum = new decimal(new int[] {
             360,
             0,
@@ -254,12 +256,13 @@
             0,
             0,
             0});
+            this.numTimerInterval.ValueChanged += new System.EventHandler(this.numTimerInterval_ValueChanged);
             // 
             // chkNotify
             // 
             this.chkNotify.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.chkNotify.AutoSize = true;
-            this.chkNotify.Location = new System.Drawing.Point(423, 102);
+            this.chkNotify.Location = new System.Drawing.Point(423, 88);
             this.chkNotify.Name = "chkNotify";
             this.chkNotify.Size = new System.Drawing.Size(18, 17);
             this.chkNotify.TabIndex = 3;
@@ -269,7 +272,7 @@
             // 
             this.label5.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(77, 55);
+            this.label5.Location = new System.Drawing.Point(77, 48);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(135, 24);
             this.label5.TabIndex = 11;
@@ -279,7 +282,7 @@
             // 
             this.label6.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(116, 99);
+            this.label6.Location = new System.Drawing.Point(116, 84);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(56, 24);
             this.label6.TabIndex = 12;
@@ -289,7 +292,7 @@
             // 
             this.label7.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(95, 275);
+            this.label7.Location = new System.Drawing.Point(95, 281);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(98, 24);
             this.label7.TabIndex = 13;
@@ -298,17 +301,19 @@
             // txtLoginURL
             // 
             this.txtLoginURL.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.txtLoginURL.Location = new System.Drawing.Point(292, 269);
+            this.txtLoginURL.Location = new System.Drawing.Point(292, 251);
+            this.txtLoginURL.MaxLength = 1000;
             this.txtLoginURL.Multiline = true;
             this.txtLoginURL.Name = "txtLoginURL";
-            this.txtLoginURL.Size = new System.Drawing.Size(280, 36);
+            this.txtLoginURL.Size = new System.Drawing.Size(280, 85);
             this.txtLoginURL.TabIndex = 14;
+            this.txtLoginURL.TextChanged += new System.EventHandler(this.txtLoginURL_TextChanged);
             // 
             // label8
             // 
             this.label8.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(75, 320);
+            this.label8.Location = new System.Drawing.Point(75, 349);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(139, 24);
             this.label8.TabIndex = 15;
@@ -317,10 +322,11 @@
             // txtIPDomain
             // 
             this.txtIPDomain.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.txtIPDomain.Location = new System.Drawing.Point(325, 318);
+            this.txtIPDomain.Location = new System.Drawing.Point(325, 347);
             this.txtIPDomain.Name = "txtIPDomain";
             this.txtIPDomain.Size = new System.Drawing.Size(213, 28);
             this.txtIPDomain.TabIndex = 16;
+            this.txtIPDomain.TextChanged += new System.EventHandler(this.txtIPDomain_TextChanged);
             // 
             // timer1
             // 
@@ -331,7 +337,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(591, 397);
+            this.ClientSize = new System.Drawing.Size(591, 425);
             this.Controls.Add(this.tabControl1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.MaximizeBox = false;

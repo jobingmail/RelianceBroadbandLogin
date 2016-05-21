@@ -31,11 +31,12 @@ namespace RelianceBBLogin
                 if (chkNotify.Checked != value)
                 {
                     AppConfig.Notify = value.ToString();
-                }
-                
-                
+                }                
             }
         }
+
+
+
 
         bool IsConnected { get; set; }
 
@@ -75,15 +76,11 @@ namespace RelianceBBLogin
 
             timer1.Start();
 
-            
 
-            bool temp;
-            if(bool.TryParse(AppConfig.Notify,out temp))
-            {
-                chkNotify.Checked = temp;
-            }
 
-            this.chkNotify.CheckedChanged += new System.EventHandler(this.chkNotify_CheckedChanged);
+            SetControlValues();
+
+
 
             this.Hide();
 
@@ -97,7 +94,47 @@ namespace RelianceBBLogin
             }
         }
 
-        
+        private void SetControlValues()
+        {
+            try
+            {
+                //Notify
+                bool temp;
+                if (bool.TryParse(AppConfig.Notify, out temp))
+                {
+                    chkNotify.Checked = temp;
+                }
+
+                this.chkNotify.CheckedChanged += new System.EventHandler(this.chkNotify_CheckedChanged);
+
+                //startup
+                chkRunStart.Checked = LoginHelper.CheckStartup();
+
+
+                //username & password
+                txtUsername.Text = AppConfig.UserId;
+                txtPassword.Text = AppConfig.Password;
+
+                //Logginterval
+                int tint = 10;
+                if(int.TryParse(AppConfig.TimerIntervalSec,out tint))
+                {
+                    numTimerInterval.Value = (decimal)tint;
+                }
+
+                //login-url
+                txtLoginURL.Text = AppConfig.LoginURL;
+
+                //ping-domain
+                txtIPDomain.Text = AppConfig.DomainIPName;
+                
+
+            }
+            catch
+            {
+
+            }
+        }
 
         async Task RelianceBBLogin()
         {
@@ -301,9 +338,67 @@ namespace RelianceBBLogin
         
         private void chkRunStart_CheckedChanged(object sender, EventArgs e)
         {
-            LoginHelper.SetStartup("RelianceLogin", Application.StartupPath, chkRunStart.Checked);
+            LoginHelper.SetStartup(chkRunStart.Checked);
+        }
+
+        private async void txtUsername_TextChanged(object sender, EventArgs e)
+        {
+            await SetUsername(txtUsername.Text);
+        }
+
+
+        private async Task SetUsername(string text)
+        {
+            AppConfig.UserId = text;
         }
 
         
+
+        private async void txtPassword_TextChanged(object sender, EventArgs e)
+        {
+            await SetPassword(txtPassword.Text);
+        }
+
+        private async Task SetPassword(string text)
+        {
+            AppConfig.Password = text;
+        }
+
+        private async void numTimerInterval_ValueChanged(object sender, EventArgs e)
+        {
+            await SetInterval(numTimerInterval.Value);
+        }
+
+        private async Task SetInterval(decimal dec)
+        {
+            try
+            {
+
+                AppConfig.TimerIntervalSec = ((int)dec).ToString();
+
+            }
+            catch { }
+        }
+
+        private async void txtLoginURL_TextChanged(object sender, EventArgs e)
+        {
+            await SetURL(txtLoginURL.Text);
+        }
+
+
+        private async Task SetURL(string text)
+        {
+            AppConfig.LoginURL = text;
+        }
+
+        private async void txtIPDomain_TextChanged(object sender, EventArgs e)
+        {
+            await SetPingDomain(txtIPDomain.Text);
+        }
+
+        private async Task SetPingDomain(string text)
+        {
+            AppConfig.DomainIPName = text;
+        }
     }
 }
