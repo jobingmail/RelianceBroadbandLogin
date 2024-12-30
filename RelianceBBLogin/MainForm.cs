@@ -88,7 +88,7 @@ namespace RelianceBBLogin
             {
                 await RelianceBBLogin();
             }
-            catch
+            catch(Exception)
             {
 
             }
